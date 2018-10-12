@@ -18,4 +18,7 @@ export class ParameterConfig {
     static smaMedium = Generators.numberGenerator(3, 20, 1);
     static smaLong = Generators.numberGenerator(9, 30, 1);
 
+    //volume
+    static volumeDeviation = Generators.numberGenerator(1, 1.2, 0.01);
+
 }

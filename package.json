@@ -23,6 +23,7 @@
     "csv-database": "^0.9.2",
     "express": "4.15.3",
     "js-combinatorics": "^0.5.3",
+    "loading-cli": "^1.0.8",
     "mongodb": "^3.1.1",
     "mongoose": "^5.2.6",
     "nodemon": "1.11.0",
