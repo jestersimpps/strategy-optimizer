@@ -5,7 +5,7 @@ import {Kline} from "../models/kline.model";
 
 export const triple_sma: Strategy =
     {
-        name: 'Sma strategy',
+        name: 'Simple sma strategy',
         buyParameters: [ParameterConfig.smaShort, ParameterConfig.smaMedium, ParameterConfig.smaLong],
         buyCondition: (inputs: Kline[], smaShort: number, smaMedium: number, smaLong: number) => {
             const prices = inputs.map(i=>i.close);
